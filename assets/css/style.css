@@ -49,7 +49,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -93,7 +93,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background-color: lightgreen;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -113,6 +113,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -126,7 +127,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -139,7 +140,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -149,7 +150,7 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
