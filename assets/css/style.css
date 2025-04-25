@@ -230,6 +230,7 @@ main {
     #benefits-mental> div {
         text-align: end;
         align-self: flex-end;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
